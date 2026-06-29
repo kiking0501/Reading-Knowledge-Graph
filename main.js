@@ -36,7 +36,7 @@ function _assign_math_graph_data() {
         }
     )(document.getElementById('section_graph'), { controlType: 'orbit' })
     .jsonUrl('./graph/complete_graph.json')
-    .cameraPosition({x: -800, y: 700, z: 800});
+    .cameraPosition({x: 1000, y: 1000, z: -800});
 
     return Promise.resolve();
 }
@@ -66,6 +66,7 @@ async function _assign_practitioners_graph_data() {
     .graphData(pData)
     .cameraPosition({x: 700, y: 700, z: 1800});
 }
+    
 
 async function build_graph() {
 

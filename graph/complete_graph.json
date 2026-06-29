@@ -66,6 +66,11 @@
             "type": "img"
         },
         {
+            "id": "15",
+            "book_key": "15",
+            "type": "img"
+        },
+        {
             "id": "1-1",
             "bookmark_name": "Chapter 1: General",
             "bookmark_page": 1,
@@ -3976,6 +3981,90 @@
             "bookmark_level": 2,
             "book_key": "14",
             "type": "text"
+        },
+        {
+            "id": "15-1",
+            "title": "The roots of science",
+            "bookmark_level": 1,
+            "book_key": "15",
+            "type": "text"
+        },
+        {
+            "id": "15-2",
+            "title": "An ancient theorem and a modern question",
+            "bookmark_level": 1,
+            "book_key": "15",
+            "type": "text"
+        },
+        {
+            "id": "15-3",
+            "title": "Kinds of number in the physical world",
+            "bookmark_level": 1,
+            "book_key": "15",
+            "type": "text"
+        },
+        {
+            "id": "15-4",
+            "title": "Magical complex numbers",
+            "bookmark_level": 1,
+            "book_key": "15",
+            "type": "text"
+        },
+        {
+            "id": "15-5",
+            "title": "Geometry of logarithms, powers, and roots",
+            "bookmark_level": 1,
+            "book_key": "15",
+            "type": "text"
+        },
+        {
+            "id": "15-6",
+            "title": "Real-number calculus",
+            "bookmark_level": 1,
+            "book_key": "15",
+            "type": "text"
+        },
+        {
+            "id": "15-7",
+            "title": "Complex-number calculus",
+            "bookmark_level": 1,
+            "book_key": "15",
+            "type": "text"
+        },
+        {
+            "id": "15-8",
+            "title": "Riemann surfaces and complex mappings",
+            "bookmark_level": 1,
+            "book_key": "15",
+            "type": "text"
+        },
+        {
+            "id": "15-9",
+            "title": "Fourier decomposition and hyperfunctions",
+            "bookmark_level": 1,
+            "book_key": "15",
+            "type": "text"
+        },
+        {
+            "id": "15-10",
+            "title": "Surfaces",
+            "bookmark_level": 1,
+            "book_key": "15",
+            "type": "text"
+        },
+        {
+            "id": "15-11",
+            "title": "Hypercomplex numbers",
+            "bookmark_level": 1,
+            "book_key": "15",
+            "type": "text"
+        },
+        {
+            "id": "15-12",
+            "title": "Manifolds of n dimensions",
+            "bookmark_level": 1,
+            "book_key": "15",
+            "type": "text"
         }
     ],
     "links": [
@@ -6245,6 +6334,66 @@
             "type": "contains"
         },
         {
+            "source": "15",
+            "target": "15-1",
+            "type": "contains"
+        },
+        {
+            "source": "15",
+            "target": "15-2",
+            "type": "contains"
+        },
+        {
+            "source": "15",
+            "target": "15-3",
+            "type": "contains"
+        },
+        {
+            "source": "15",
+            "target": "15-4",
+            "type": "contains"
+        },
+        {
+            "source": "15",
+            "target": "15-5",
+            "type": "contains"
+        },
+        {
+            "source": "15",
+            "target": "15-6",
+            "type": "contains"
+        },
+        {
+            "source": "15",
+            "target": "15-7",
+            "type": "contains"
+        },
+        {
+            "source": "15",
+            "target": "15-8",
+            "type": "contains"
+        },
+        {
+            "source": "15",
+            "target": "15-9",
+            "type": "contains"
+        },
+        {
+            "source": "15",
+            "target": "15-10",
+            "type": "contains"
+        },
+        {
+            "source": "15",
+            "target": "15-11",
+            "type": "contains"
+        },
+        {
+            "source": "15",
+            "target": "15-12",
+            "type": "contains"
+        },
+        {
             "source": "1-6",
             "target": "8-17",
             "type": "related",
@@ -6777,6 +6926,72 @@
             "target": "14-3-7",
             "type": "related",
             "remark": "Quantum Beauty IV: In Beauty We Trust -> The 'Super' in Superstring"
+        },
+        {
+            "source": "15-1",
+            "target": "11-3-1",
+            "type": "related",
+            "remark": "The roots of science -> Plato I: Structure from Symmetry - Platonic Solids"
+        },
+        {
+            "source": "1-8",
+            "target": "15-2",
+            "type": "related",
+            "remark": "Axiomatics -> ancient theorem/modern question"
+        },
+        {
+            "source": "15-2",
+            "target": "11-2-1",
+            "type": "related",
+            "remark": "ancient theorem/modern question -> Pythagoras I: Thought and Object"
+        },
+        {
+            "source": "15-3",
+            "target": "3-2",
+            "type": "related",
+            "remark": "Kinds of number in the physical world -> The Real numbers"
+        },
+        {
+            "source": "15-6",
+            "target": "3-6",
+            "type": "related",
+            "remark": "Real-number calculus -> Differentiation"
+        },
+        {
+            "source": "15-6",
+            "target": "3-7",
+            "type": "related",
+            "remark": "Real-number calculus -> Riemann Integral"
+        },
+        {
+            "source": "15-8",
+            "target": "2-3",
+            "type": "related",
+            "remark": "Riemann surfaces and complex mappings -> Topological Spaces"
+        },
+        {
+            "source": "15-10",
+            "target": "1-15",
+            "type": "related",
+            "remark": "Surfaces -> Vector Spaces"
+        },
+        {
+            "source": "15-11",
+            "target": "8-17",
+            "type": "related",
+            "remark": "Hypercomplex numbers -> Rings: definitions and elementary properties"
+        },
+        {
+            "source": "1-14",
+            "target": "15-12",
+            "type": "related",
+            "remark": "Hyperspace -> Manifolds of n dimensions"
+        },
+        {
+            "source": "15-12",
+            "target": "2-5",
+            "type": "related",
+            "remark": "Manifolds of n dimensions -> Compactness"
         }
         
     ]
